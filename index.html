@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Namaste React</title>
+</head>
+<body>
+   <!-- <div id="heading">  any id name can be used   -->
+    <div id="root"> 
+        <!--simple html code to render the heading here , below will use javascript code using React and then inject into div through root (React.CreateElement) -->
+        <!-- <h1>Hello World</h1> -->
+    </div>
+ 
+ <script crossorigin 
+ src="https://unpkg.com/react@18/umd/react.development.js">
+</script>
+<script crossorigin 
+src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+</script>
+
+<!--  below is pure html code
+  const heading = document.createElement("h1");
+ heading.innerHTML = "Hello World";    
+  const root =  document.getElementById("root");
+  root.appendChild(heading);
+
+  -->
+<!-- <script> 
+// // React code to create a heading element and render it to the root div
+// //heading is an object or element which has 3 arguments , 1. which type of element, 2. properties, 3. children
+// // all code will be written in root and then injected to div
+// //CreateElementbyId is not present in current librayr, hence used createElement
+// const heading = React.createElement('h1', { id: 'myDiv' }, 'Hello World from React');
+// //below document.getElementById used to get the div element through heading name called root, which is defined above
+// // ReactDOM is used to render the react element to the root div
+// // //basically createing root and getting the dic element hroug h root name
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// //rrender heading to the root div
+// root.render(heading);
+
+</script> -->
+ <!-- after above basics, we shall write above code in App.js and then call it here -->
+ 
+<script src="./App.js"></script>
+
+   
+</body>
+</html>
