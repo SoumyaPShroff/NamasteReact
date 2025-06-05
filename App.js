@@ -6,7 +6,6 @@ const heading = React.createElement(
 "h",
 {id: "heading"},
 "Namaste React"
-
 );
 // OR 
 
